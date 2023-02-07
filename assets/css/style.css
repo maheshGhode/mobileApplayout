@@ -1,0 +1,251 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-bottom: 140px;
+}
+.hero{
+    /* background-color:#da332d; */
+    background-image: linear-gradient(rgb(218, 51, 45, 0.6), rgb(218, 51, 45, 0.6)),url('../img/hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 98vh;
+    padding: 45px;
+    overflow: hidden;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 10px;
+    padding-top: 15px;
+}
+.navbar ul li a{
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+.navbar ul li a::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0%;
+    background-color: #fff;
+    left: 0;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+}
+.navbar ul li a:hover::after{
+    width: 100%;
+}
+.chocolate-info a{
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px;
+}
+.chocolate-info h2{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.chocolate-info p{
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.chocolate-info a{
+    font-size: 17px;
+    font-weight: bold;
+    padding: 25px 50px 25px 35px;
+    background-color: #000000;
+    border-radius: 50px;
+}
+.chocolate-info a i{
+    font-size: 40px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.mobile-img img{
+    margin-left: 100px;
+}
+
+/* ======= App feature section ===== */
+
+.features{
+    padding: 85px 0 100px 0;
+}
+.head-app{
+    margin-bottom: 65px;
+}
+.head-app h2{
+    font-size: 52px;
+    color: #8a8a8a;
+    font-weight: bold;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+
+.head-app p{
+    color: #3a3a3a;
+    font-size: 22px;
+}
+.variables{
+    padding: 20px;
+}
+.variables figure{
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 35px;
+}
+.variables figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.variables h3{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin-bottom: 40px;
+}
+.variables p{
+    font-size: 18px;
+    color: #646464;
+}
+
+
+
+/* ======= chochalet section ===== */
+
+.chocolate{
+    background-image: url('../img/hero-2.jpg');
+    padding: 200px 0 175px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.chocolateinfo h2{
+    color: #ffff;
+    font-size: 52px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+.chocolateinfo p{
+    font-size: 24px;
+    color: #585858;
+    width: 60%;
+    margin-bottom: 70px;
+} 
+.chocolateinfo a{
+    font-size: 15px;
+    color: #d9332d;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid #d9332d;
+    transition: all .2s linear;
+}
+.chocolateinfo a:hover{
+    background-color: #d9332d;
+    color: #fff;
+}
+
+
+/* ======= footer section  ===== */
+
+.footer{
+    background-color: #2e2e38;
+    padding: 120px 0 150px;
+}
+.col-12 figure{
+    margin-bottom: 60px;
+}
+.squre{
+    width: 55px;
+    height: 40px;
+    background-color: #e74c3c;
+}
+
+.float{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.popular h4{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.popular-info p{
+    font-size: 15px;
+    color: #ffff;
+    padding: 0 5px 0;
+    margin: 0 5px 5px 5px;
+}
+.suits li{
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    width: 70%;
+    padding-top: 5px;
+}
+
+.litle{
+    font-size: 11px;
+    color: #fff;
+}
+.about-para{
+    color: #fff;
+    font-size: 15px;
+    font-style: italic;
+    width: 70%;
+} 
+
+footer{
+    background-color: #d7dedc;
+    padding: 45px 0 40px;
+}
+
+.footer-info:first-child p{
+    display: inline-block;
+    font-size: 25px;
+    color: #000000;
+    padding-right: 25px;
+}
+.footer-info a{
+    font-size: 25px;
+    color: #000000;
+    padding: 25px;
+    border-left: 2px solid #000000;
+}
+
+.footer-info i{
+    font-size: 40px;
+    margin-right: 40px;
+    vertical-align: middle;
+}
+
+.footer-info i:nth-child(1){
+    color: #435e9e;
+}
+.footer-info i:nth-child(2){
+    color: #d93879;
+}
+.footer-info i:nth-child(3){
+    color: #a0e6e9;
+}
